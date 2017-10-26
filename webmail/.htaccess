@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^webmail\.bintanglautbanda\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.webmail\.bintanglautbanda\.com$
+RewriteRule ^/?$ "https\:\/\/altostratus\.indowebsite\.net\:2096\/\?locale\=en" [R=301,L]
+
